@@ -1,0 +1,109 @@
+.theme  .table_title{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 300;
+    font-family: 'Roboto',sans-serif;
+}
+.theme .table_desc{
+    font-weight: 400;
+}
+.theme .dataTables_length label{
+    color: #808080;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+}
+.attc_front_table{
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+
+.default.theme .table>tbody>tr>td{
+    border-left: 0;
+}
+.theme thead>tr{
+    border-bottom: #e8e8e8;
+}
+.theme .dataTables_wrapper.no-footer .dataTables_scrollBody{
+    border: 0;
+}
+.theme .dataTables_wrapper .dataTables_paginate .paginate_button{
+    line-height: 43px;
+    width: 45px;
+    padding: 0;
+    color: #666!important;
+    background: transparent;
+    border-radius: 50%;
+    border-color: #dae1e6;
+}
+.theme .dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+.theme .dataTables_wrapper .dataTables_paginate .paginate_button.next{
+    width: auto;
+    padding: 0 23px;
+    border-radius: 18px;
+}
+.theme .dataTables_wrapper .dataTables_paginate{
+    margin-top: 35px;
+}
+.theme .dataTables_wrapper .dataTables_info{
+    margin-top: 40px;
+}
+
+
+/*theme css*/
+/*color light blue (#2095f2)*/
+.light_blue{
+    font-family: 'Roboto',sans-serif;
+}
+.light_blue  .table_title,
+.light_blue .dataTables_length select{
+    color: #333333;
+}
+.light_blue .table_desc{
+    color: #808080;
+}
+.light_blue .dataTables_length select{
+    border-color: #dedede;
+    background-color: transparent;
+}
+.light_blue .dataTables_filter label input{
+    color: #ababab;
+    background-color: transparent;
+    border-radius: 3px;
+}
+.light_blue .attc-thead{
+    background: #eef7ff;
+}
+.light_blue .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.light_blue .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    background: #2095f2;
+    color: #fff!important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    border-color: #2095f2;
+}
+.light_blue .table>thead>tr>th{
+    color: #2095f2;
+}
+
+
+/*color purple (#2095f2)*/
+.purple .attc_table_heading{
+    background: #6639b6;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.purple .attc_table_heading{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 26px;
+}
+.purple .table_title{
+    color: #fff;
+    margin-top: 0;
+}
+.purple .table_desc{
+    color: #d2c3ed;
+}
+.purple .dataTables_wrapper{
+    margin-top: 35px;
+}
